@@ -18,6 +18,10 @@ Route::get('/logout',function(){
 
 Route::post("/login",[UserController::class,'login']);
 
+Route::post("/register",[UserController::class,'register']);
+
+Route::view("/register",'register');
+
 
 
 Route::get("/",[ProductController::class,'index']);
@@ -36,6 +40,12 @@ Route::get("removeItem/{id}",[ProductController::class,'removeItem']);
 
 
 Route::get("ordernow",[ProductController::class,'orderNow']);
+
+
+Route::post("orderplace",[ProductController::class,'orderPlace']);
+
+
+Route::get("myorders",[ProductController::class,'myOrders']);
 
 
 
