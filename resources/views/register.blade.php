@@ -1,5 +1,5 @@
 
-@extends('master')
+@extends('layout')
 @section("content")
 <div class="container custom-login">
     <div class="row">

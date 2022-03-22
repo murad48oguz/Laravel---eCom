@@ -1,4 +1,4 @@
-@extends('master')
+@extends('layout')
 @section("content")
 
 <div class = "container custom-product">
@@ -43,7 +43,7 @@
 		</div>
 
 		<div class="trending-wrapper">
-          <h3>Trending Products</h3>
+          <h3 class ="trending_product_h3">Trending Products</h3>
           @foreach ($products as $item)
         <div class="trending-item">
             <a href="detail/{{$item['id']}}">

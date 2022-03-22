@@ -1,4 +1,4 @@
-@extends('master')
+@extends('layout')
 @section("content")
 <div class="container">
    <div class="row">
@@ -10,7 +10,7 @@
        <h2>{{$product['name']}}</h2>
        <h3>Price : {{$product['price']}}</h3>
        <h4>Details: {{$product['description']}}</h4>
-       <h4>category: {{$product['category']}}</h4>
+       <h4>Category: {{$product['category']}}</h4>
        <br><br>
        <form action="/add_to_cart" method="POST">
            @csrf

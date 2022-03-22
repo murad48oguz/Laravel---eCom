@@ -3,6 +3,92 @@
     font-family: Roboto;
 }
 
+.custom-login {
+    height: 500px;
+    padding-top: 100px;
+}
+
+img.slider-img {
+    height: 400px !important;
+}
+
+.custom-product {
+    height: 665px;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 27px;
+    /* text-align: center; */
+}
+
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 27px;
+    /* text-align: center; */
+    margin-bottom: 40px;
+}
+
+h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 27px;
+    /* text-align: center; */
+    margin-bottom: 40px;
+}
+
+.trending_product_h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.slider-text {
+    background-color: #35443585 !important;
+}
+
+.trending-image {
+    height: 100px;
+}
+
+.trending-item {
+    float: left;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.trending-wrapper {
+    margin: 30px;
+}
+
+.detail-img {
+    height: 230px;
+}
+
+.cart-list-devider {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px
+}
+
+.search-box {
+    margin-left: 300px;
+    width: 400px !important;
+}
+
+.navbar-collapse {
+    background-color: #fff;
+}
+
+.btn-success {
+    /* color: rgb(20, 10, 29); */
+    margin-top: 20px;
+    margin-left: 620px;
+    color: aqua;
+    border-color: aqua;
+}
+
+
+/* ---------Footer Css-------- */
+
 section {
     width: 100%;
     display: inline-block;
@@ -15,7 +101,7 @@ section {
 }
 
 .footer-distributed {
-    background-color: #292c2f;
+    background-color: #182025;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
