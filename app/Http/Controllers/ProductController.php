@@ -88,7 +88,7 @@ class ProductController extends Controller
 
     function orderPlace(Request $req)
     {
-        $userId=Session::get('user')['id'];
+         $userId=Session::get('user')['id'];
          $allCart= Cart::where('user_id',$userId)->get();
          foreach($allCart as $cart)
          {

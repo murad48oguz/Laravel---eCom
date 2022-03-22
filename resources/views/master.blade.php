@@ -27,7 +27,11 @@
 
 </body>
 
+
+
 <style >
+
+
 
    .custom-login{
    		height: 500px;
@@ -39,9 +43,14 @@
    }
 
    .custom-product{
-   	height: 600px;
+   	height: 665px;
+    }
 
-   }
+    .h3, h3{
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
 
    .slider-text{
    	background-color: #35443585 !important ;
@@ -54,7 +63,9 @@
 
    .trending-item{
    	float: left;
-   	margin-right: 40px;
+   	margin-right: 20px;
+    margin-left: 100px;
+
    }
 
    .trending-wrapper{
@@ -67,14 +78,20 @@
    }
 
    .cart-list-devider{
-        border-bottom: 1px solid #ccc;
+        border-bottom: 2px solid #ccc;
         margin-bottom: 20px;
         padding-bottom: 20px
     }
 
     .search-box{
-       width:500px !important;
+
+       margin-left: 300px;
+       width:400px !important;
+
     }
+
+
+
 
 
 
