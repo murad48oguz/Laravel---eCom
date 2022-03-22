@@ -22,28 +22,21 @@ Route::post("/register",[UserController::class,'register']);
 
 Route::view("/register",'register');
 
-
-
 Route::get("/",[ProductController::class,'index']);
 
+Route::get("search",[ProductController::class,'search']);
 
 Route::get("detail/{id}",[ProductController::class,'detail']);
 
 Route::post("add_to_cart",[ProductController::class,'addToCart']);
 
-
 Route::get("cartlist",[ProductController::class,'cartList']);
-
 
 Route::get("removeItem/{id}",[ProductController::class,'removeItem']);
 
-
-
 Route::get("ordernow",[ProductController::class,'orderNow']);
 
-
 Route::post("orderplace",[ProductController::class,'orderPlace']);
-
 
 Route::get("myorders",[ProductController::class,'myOrders']);
 
